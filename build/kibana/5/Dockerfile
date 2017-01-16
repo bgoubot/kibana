@@ -2,8 +2,9 @@ FROM kibana:5.1.2
 
 MAINTAINER Bertrand Goubot <bgoubot@yahoo.fr> 
 
-RUN chmod +x /instal_plugin.sh 
-RUN /instal_plugin.sh
+COPY instal-plugin.sh /
+RUN chmod +x /instal-plugin.sh 
+RUN /instal-plugin.sh
 
 COPY docker-entrypoint.sh /
 RUN chmod 755 /docker-entrypoint.sh
