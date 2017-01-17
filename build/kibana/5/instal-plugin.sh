@@ -5,4 +5,4 @@
 #cd c3_charts \
 #npm install
 #plugin prealert
-kibana-plugin install https://github.com/bgoubot/kibana-swimlane-vis/archive/v5.1.2.zip
+kibana-plugin install https://github.com/bgoubot/kibana-swimlane-vis/releases/download/v5.1.2/prelert_swimlane_vis-5.1.2.zip
